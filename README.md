@@ -35,27 +35,28 @@ esto como guía para mejorar.
 ### Configuracion archivo css/tailwind.css
 
 - `@tailwind base; @tailwind components; @tailwind utilities;`
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+- `@import 'tailwindcss/base';`
+- `@import 'tailwindcss/components';`
+- `@import 'tailwindcss/utilities';` 
 
-### Instalamos un live server  npm i live-server -g 
+### Instalamos un live server  
+- `npm i live-server -g `
 
 
 ### Completamos script en package.json
 
-"start": "live-server public",
-"build": "npx tailwindcss-cli@latest build css/tailwind.css -o public/css/styles.css"
-"dev": "live-server public postcss css/tailwind.css -o public/css/styles.css --watch",
-"watch":" postcss css/tailwind.css -o public/css/styles.css -w"
+- `"start": "live-server public",`
+- `"build": "npx tailwindcss-cli@latest build css/tailwind.css -o public/css/styles.css" `
+- `"dev": "live-server public postcss css/tailwind.css -o public/css/styles.css --watch",`
+- `"watch":" postcss css/tailwind.css -o public/css/styles.css -w"`
 
 
 
 <!-- Ejecutar para compilar -->
 ## nos crea el archivo css a partir de Taildwind
 
-npm run build 
-npm run start
+- `npm run build `
+- `npm run dev`
 
 ### Link de Apoyos  
 https://pandao.github.io/editor.md/en.html
