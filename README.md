@@ -47,12 +47,10 @@ esto como guía para mejorar.
 - `npm i cssnano --save-dev`
 
 ### Nos apoyamos de una libreria llamada alpine y awesome para animaciones e iconografia 
-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
--  <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    />
-
+```html
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+```
 ### Completamos script en package.json
 
 - `"start": "live-server public",`
