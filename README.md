@@ -39,10 +39,10 @@ esto como guía para mejorar.
 - `@import 'tailwindcss/components';`
 - `@import 'tailwindcss/utilities';` 
 
-### Instalamos un live server  
+### Instalamos un live server esto es para hacer pruebas 
 - `npm i live-server -g `
 
-### Instalamos Librerias para realizar purge del css 
+### Instalamos Librerias para realizar purge del css [esto es al  final]
 - `npm i -D @fullhuman/postcss-purgecss postcss`
 - `npm i cssnano --save-dev`
 
@@ -58,7 +58,8 @@ esto como guía para mejorar.
 - `"dev": "live-server public postcss css/tailwind.css -o public/css/styles.css --watch",`
 - `"watch":" postcss css/tailwind.css -o public/css/styles.css -w"`
 
-
+### Este comando  lo podremos incluir en el package.json 
+`npx tailwindcss build src/[Nombre archivo Config]tailwind.css -o css/[Nombre Archivo donde se compilaran los estilos finales]estilos.css`
 
 <!-- Ejecutar para compilar -->
 ## nos crea el archivo css a partir de Taildwind
